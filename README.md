@@ -7,7 +7,7 @@ Code to send Infrastructure Monitoring metric datapoints to Splunk Observability
 * Datapoint values randomly generated to identify each datapoint in timeseries database
 * Can adjust the resolution of signal and number of datapoints to send
 
-1) Copy the file to a Linux or Mac
+1) Copy the file to a Linux or Mac and enter your Splunk Observability Token
 
 2) Make the script executable
 $ chmod +x send_data.sh
